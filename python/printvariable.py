@@ -5,7 +5,9 @@ def main():
     print(100*100)
     print(100-50)
     print(var_a)
-    print("variable a: ", var_a)
+    print("variable a: ", var_a, end=" ")
+    print("variable a: ", var_a, sep="---")
 
 if __name__ == "__main__":
     main()
+
